@@ -506,20 +506,20 @@ body {
   overflow: visible;
   z-index: 1;
   text-align: center;
-  -webkit-perspective: 600px;
-          perspective: 600px;
+  -webkit-perspective: 700px;
+          perspective: 700px;
   -webkit-perspective-origin: 50% 40%;
           perspective-origin: 50% 40%; }
 
 .reveal .slides > section {
-  -ms-perspective: 600px; }
+  -ms-perspective: 700px; }
 
 .reveal .slides > section,
 .reveal .slides > section > section {
   display: none;
   position: absolute;
   width: 100%;
-  padding: 20px 0px;
+  /*! padding: 20px 0px; */
   pointer-events: auto;
   z-index: 10;
   -webkit-transform-style: flat;
@@ -864,7 +864,7 @@ body {
 
 .reveal.page .slides section {
   padding: 30px;
-  min-height: 700px;
+  min-height: 800px;
   box-sizing: border-box;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d; }
